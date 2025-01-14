@@ -20,8 +20,9 @@ dependencyResolutionManagement {
 }
 
 
-rootProject.name = "app"
+rootProject.name = "ALibKit_Android"
 include ':app'
+include ':tools_build_apksig'
 //ALibKit_Jetbrains
 include ":ALibKit_Jetbrains"
 project(':ALibKit_Jetbrains').projectDir = new File("D:\\WorkSpace\\GitHub\\ALibKit_Jetbrains")
@@ -36,4 +37,3 @@ include ":ASwiftKit"
 project(':ASwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ASwiftKit")
 include ':ASwiftKit:basick'
 include ':ASwiftKit:bindk'
-include ':tools_build_apksig'

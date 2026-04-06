@@ -47,4 +47,5 @@ include ':KUtilKit:kotlin'
 include ":ASwiftKit"
 project(':ASwiftKit').projectDir = new File("D:\\WorkSpace\\GitHub\\ASwiftKit")
 include ':ASwiftKit:basick'
+include ':ASwiftKit:xmlk'
 include ':ASwiftKit:uik:databinding'

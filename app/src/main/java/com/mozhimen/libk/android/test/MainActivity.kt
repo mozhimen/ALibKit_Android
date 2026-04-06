@@ -1,4 +1,4 @@
-package com.mozhimen.libk.android.app
+package com.mozhimen.libk.android.test
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
